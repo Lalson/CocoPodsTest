@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "podSpecLFMS"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "This file maily used for create a login form."
   spec.description  = "The framework will show the login form and user can easily mange thire login through this framework"
   spec.homepage     = "https://github.com/Lalson/CocoPodsTest"
@@ -11,12 +11,11 @@ Pod::Spec.new do |spec|
   spec.author             = { "lalsoncl" => "lalsoncl@gmail.com" }
   spec.source       = { :git => "https://github.com/Lalson/CocoPodsTest.git", :tag => spec.version.to_s }
   spec.swift_version = '5.0'
-  spec.source_files  = 'LController'
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = 'LensFM', 'LensFM/**/*.{h, swift}'
+  #spec.exclude_files = "Classes/Exclude"
   spec.platform     = :ios
   spec.platform     = :ios, "13.0"
-
-  # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+     # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  A list of resources included with the Pod. These are copied into the
   #  target bundle with a build phase script. Anything else will be cleaned.
