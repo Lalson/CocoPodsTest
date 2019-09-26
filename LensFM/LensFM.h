@@ -4,7 +4,7 @@
 //
 //  Created by Lalson CL on 26/09/19.
 //  Copyright © 2019 Hifx Media Services Pvt LTD. All rights reserved.
-//
+//podspec
 
 #import <Foundation/Foundation.h>
 
