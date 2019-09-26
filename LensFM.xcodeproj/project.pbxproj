@@ -14,6 +14,7 @@
 		18275B8C233C7D8300BA6F30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18275B8A233C7D8300BA6F30 /* Main.storyboard */; };
 		18275B8E233C7D8400BA6F30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18275B8D233C7D8400BA6F30 /* Assets.xcassets */; };
 		18275B91233C7D8400BA6F30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18275B8F233C7D8400BA6F30 /* LaunchScreen.storyboard */; };
+		18D42426233CD316009473A5 /* podSpecLFMS.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 18D42425233CD316009473A5 /* podSpecLFMS.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		18275B8D233C7D8400BA6F30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18275B90233C7D8400BA6F30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18275B92233C7D8400BA6F30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D42425233CD316009473A5 /* podSpecLFMS.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podSpecLFMS.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		18275B69233C7C7300BA6F30 = {
 			isa = PBXGroup;
 			children = (
+				18D42425233CD316009473A5 /* podSpecLFMS.podspec */,
 				18275B75233C7C7300BA6F30 /* LensFM */,
 				18275B83233C7D8300BA6F30 /* LController */,
 				18275B74233C7C7300BA6F30 /* Products */,
@@ -180,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D42426233CD316009473A5 /* podSpecLFMS.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
