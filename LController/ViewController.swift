@@ -13,9 +13,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let alert : UIAlertController()
-        alert.title = "test"
-        alert.show(self, sender: nil)
+//        let alert : UIAlertController()
+//        alert.title = "test"
+//        alert.show(self, sender: nil)
     }
 
 

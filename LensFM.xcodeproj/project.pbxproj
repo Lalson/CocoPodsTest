@@ -15,6 +15,7 @@
 		18275B8E233C7D8400BA6F30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18275B8D233C7D8400BA6F30 /* Assets.xcassets */; };
 		18275B91233C7D8400BA6F30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18275B8F233C7D8400BA6F30 /* LaunchScreen.storyboard */; };
 		18D42426233CD316009473A5 /* podSpecLFMS.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 18D42425233CD316009473A5 /* podSpecLFMS.podspec */; };
+		18D42428233CD52F009473A5 /* ManoramaKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 18D42427233CD52F009473A5 /* ManoramaKit.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		18275B90233C7D8400BA6F30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18275B92233C7D8400BA6F30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18D42425233CD316009473A5 /* podSpecLFMS.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podSpecLFMS.podspec; sourceTree = "<group>"; };
+		18D42427233CD52F009473A5 /* ManoramaKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ManoramaKit.podspec; path = ../../../../Downloads/ManoramaKit.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		18275B83233C7D8300BA6F30 /* LController */ = {
 			isa = PBXGroup;
 			children = (
+				18D42427233CD52F009473A5 /* ManoramaKit.podspec */,
 				18275B84233C7D8300BA6F30 /* AppDelegate.swift */,
 				18275B86233C7D8300BA6F30 /* SceneDelegate.swift */,
 				18275B88233C7D8300BA6F30 /* ViewController.swift */,
@@ -194,6 +197,7 @@
 				18275B91233C7D8400BA6F30 /* LaunchScreen.storyboard in Resources */,
 				18275B8E233C7D8400BA6F30 /* Assets.xcassets in Resources */,
 				18275B8C233C7D8300BA6F30 /* Main.storyboard in Resources */,
+				18D42428233CD52F009473A5 /* ManoramaKit.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +425,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Lalson.LController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -439,7 +443,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Lalson.LController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
